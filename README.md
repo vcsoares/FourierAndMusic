@@ -17,3 +17,5 @@ SwiftUI runs satisfyingly well inside the Playgrounds environment, even though i
 Since this playground uses Additive Synthesis to demonstrate its concepts, I had to find a way to make sound generation possible. 
 The Playground environment is too restricted to allow for proper, real-time sound synthesis, so I decided to use some clever sample trickery instead: I've generated perfectly loopable and lossless audio files for each sine oscillator, and I've made a simple 8-channel mixer using AVFoundation that blends them together as needed. 
 This has worked well enough for the purposes of this playground, while also being simple enough to guarantee satisfying performance in both Xcode and Swift Playgrounds.
+
+<p align="center"><a href="https://youtu.be/fZsP1-hPrt0"><img src="https://img.youtube.com/vi/fZsP1-hPrt0/0.jpg" alt="Link to YouTube demo of this Playground"><br>Watch the YouTube demo of this Playground</a></p>
